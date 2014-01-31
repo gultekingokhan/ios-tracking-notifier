@@ -13,7 +13,7 @@ This is intended to provide a way to visually validate the triggering of events 
 
 ##Integration Steps:
 - Add SBTrackingNotifier to project
-- In the app delegate class add the following line of code to application:didFinishLaunchingWithOptions: function"
+- In the app delegate class, #import "SBTrackingManager.h" and add the following line of code to application:didFinishLaunchingWithOptions: function"
 
     ```
 	    
@@ -32,4 +32,6 @@ This is intended to provide a way to visually validate the triggering of events 
 
 ##Usage:
 - Tap three times with two fingers to activate the notification UI
+- After being activated, the notifications will be automatically triggered
+- Tap the notifications to dismiss early
 
